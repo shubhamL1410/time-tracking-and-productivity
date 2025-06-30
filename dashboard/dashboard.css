@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(223, 255, 211);
+}
+
+h2, h3 {
+    color: #333;
+    font-size: 2rem;
+}
+
+table {
+    width: 80%;
+    margin: 10px auto;
+    background-color: white;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+th {
+    background: #276b00;
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1.2rem;
+    background: #276b00;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #007bff;
+}
